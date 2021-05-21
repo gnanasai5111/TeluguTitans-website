@@ -1,0 +1,375 @@
+/* aboutus */
+@media (max-width:992px) {
+
+
+  .navbar-toggler:focus, .navbar-toggler:hover {
+      text-decoration: none;
+      outline: 0;
+    }
+
+
+
+
+
+  .home-bg-container {
+
+    top: 54px;
+  }
+  .navbar-nav {
+    text-align: center;
+    margin-left: 0;
+    background-color: #d9202c;
+    margin-top: 50px;
+}
+.navbar-nav .nav-item {
+    margin: 0 ;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-nav .active {
+    border:0;
+    background-color: #f94a21;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #eac039;
+}
+  .scrolling-to-top{
+    right: 18px;
+    width: 22px;
+    height: 54px;
+  }
+  .red-rectangle, .yellow-rectangle {
+    right: 1px;
+    top: 8px;
+  }
+  .home-gallery,.home-video,.home-news,.home-fixture,.home-squad,.home-sponsors{
+    padding: 20px;
+  }
+  .viewmore-button,.viewmore-button-videos,.viewmore-button-news{
+    top: 20px;
+    right: 20px;
+    font-size: 0.9rem;
+  }
+
+  .video-margin, .news-margin {
+    margin: 20px;
+  }
+
+  .aboutus-rectangle, .gallery-rectangle, .videos-rectangle, .news-rectangle {
+    height: 100px;
+  }
+
+  .gallery-home-heading, .video-home-heading, .news-home-heading, .fixture-home-heading, .squad-home-heading, .sponsors-home-heading {
+    font-size: 1.2rem
+  }
+
+  .video-title, .video-duration, .video-date, .thumbnail-title, .news-title, .news-date, .news-para, .thumbnail-button, .viewmore-button,.video-title-home,.video-duration-home,.video-date-home,.thumbnail-title-home.thumbnail-button-home {
+    font-size: 0.9rem;
+  }
+
+  .bottom-triangle {
+    border-bottom: 75px solid #eac039;
+    border-right: 75px solid transparent;
+  }
+  .bottom-rectangle-gallery,.bottom-rectangle-video,.bottom-rectangle-news,.bottom-rectangle-fixtures,.bottom-rectangle-squad{
+    height: 6px;
+  }
+
+  .top-triangle {
+    border-top: 75px solid #d9202c;
+    border-left: 75px solid transparent;
+  }
+
+  /* in tablet mode,move hamburger icon to left */
+  .hamburger-icon {
+
+    margin-right: -13px;
+    /* background-color: #d9202c; */
+    border: none;
+    z-index: 9999;
+  }
+
+  /* orangle rectangle on navbar */
+  .rectangle-header {
+    /* border-bottom: 56px solid #f94a21; */
+    border-bottom: 54px solid #f94a21;
+  }
+
+  .gallery-margin,.home-gallery-margin{
+    margin-bottom: 15px;
+  }
+
+  .gallery-rectangle, .videos-rectangle, .news-rectangle {
+    margin-top: 56px !important
+  }
+    .aboutus-rectangle{
+      margin-top: 54px !important
+    }
+
+  .aboutus-heading, .gallery-heading, .videos-heading, .news-heading {
+    font-size: 1.8rem;
+  }
+
+  .aboutus-para, .season-history-details {
+    font-size: 0.9rem;
+  }
+
+  .titans-history-aboutus, .twitter-heading {
+    font-size: 1.2rem;
+  }
+
+  .footer-title {
+    font-size: 1.2rem;
+  }
+
+  .footer-location, .socialicons-text {
+    font-size: 0.9rem;
+  }
+
+  .history-1, .history-2, .history-3, .history-4, .history-5, .history-6, .history-7 {
+    flex-direction: row;
+  }
+
+  .rectangle-history {
+    width: 90px;
+  }
+
+  .rectangle-fixtures {
+    width: 75px;
+  }
+
+  .left-arrow-aboutus-1, .left-arrow-aboutus-2,.left-arrow-aboutus-3,.left-arrow-aboutus-4,.left-arrow-aboutus-5,.left-arrow-aboutus-6 {
+    left: -20px;
+  }
+
+  .right-arrow-aboutus-1, .right-arrow-aboutus-2,.right-arrow-aboutus-3,.right-arrow-aboutus-4,.right-arrow-aboutus-5,.right-arrow-aboutus-6 {
+    right: -20px;
+  }
+
+  .player-img {
+    height: 300px;
+  }
+
+  .player-name {
+    height: 50px;
+  }
+}
+
+@media (max-width:768px) {
+  .squad-pills {
+    flex-direction: column;
+  }
+
+  .squad-pills .nav-item .nav-link {
+    width: 100%;
+  }
+
+  .orange-line {
+    display: none;
+  }
+
+  .fixtures-2 {
+    display: block;
+  }
+
+  .fixtures-1 {
+    display: none;
+  }
+
+  .rectangle-history {
+    display: none;
+  }
+
+  .history-1, .history-2, .history-3, .history-4, .history-5, .history-6, .history-7 {
+    height: 150px;
+  }
+
+  .season-history {
+    background-color: #f94a21;
+  }
+
+  .season-details {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .titans-aboutus{
+    height: 1800px;
+  } */
+  .left-arrow-aboutus-1, .left-arrow-aboutus-2,.left-arrow-aboutus-3,.left-arrow-aboutus-4,.left-arrow-aboutus-5,.left-arrow-aboutus-6{
+    left: -15px;
+  }
+
+  .right-arrow-aboutus-1, .right-arrow-aboutus-2,.right-arrow-aboutus-3,.right-arrow-aboutus-4,.right-arrow-aboutus-5,.right-arrow-aboutus-6{
+    right: -15px;
+  }
+
+  .titans-footer {
+    height: 300px;
+  }
+
+  /* season header gallery */
+  .season-header-1 {
+    flex-direction: column;
+  }
+
+  .season-header-1-width .nav-item, .season-header-2-width .nav-item {
+    width: 100%;
+  }
+
+  .header-for-seasons {
+    height: 100px;
+  }
+}
+
+@media (max-width:576px) {
+  .scrolling-to-top {
+    right: 10px;
+  }
+  .aboutus-rectangle, .gallery-rectangle, .videos-rectangle, .news-rectangle {
+    height: 75px;
+  }
+  .viewmore-button,.viewmore-button-videos,.viewmore-button-news{
+    font-size: 0.7rem;
+  }
+
+  .gallery-home-heading, .video-home-heading, .news-home-heading, .fixture-home-heading, .squad-home-heading, .sponsors-home-heading {
+    font-size: 1rem
+  }
+  .bottom-rectangle-gallery,.bottom-rectangle-video,.bottom-rectangle-news,.bottom-rectangle-fixtures,.bottom-rectangle-squad{
+    height: 5px;
+  }
+
+  .video-margin, .news-margin {
+    margin: 0px;
+  }
+
+  .bottom-triangle {
+    border-bottom: 50px solid #eac039;
+    border-right: 50px solid transparent;
+  }
+
+  .video-title, .video-duration, .video-date, .thumbnail-title, .news-title, .news-date, .news-para, .thumbnail-button, .viewmore-button,.video-title-home,.video-duration-home,.video-date-home,.thumbnail-title-home.thumbnail-button-home {
+    font-size: 0.7rem;
+  }
+
+  .top-triangle {
+    border-top: 50px solid #d9202c;
+    border-left: 50px solid transparent;
+  }
+
+  .viewmore-button-news, .viewmore-button-news, .viewmore-button-videos, .viewmore-button {
+    position: static;
+    width: 100px;
+    display: block;
+  }
+
+  .titans-footer {
+    height: 350px;
+  }
+
+  .player-img {
+    height: 250px;
+  }
+
+  .player-name {
+    height: 40px;
+  }
+
+  /* .titans-aboutus{
+    height: 1900px;
+  } */
+  .left-arrow-aboutus-1, .left-arrow-aboutus-2,.left-arrow-aboutus-3,.left-arrow-aboutus-4,.left-arrow-aboutus-5,.left-arrow-aboutus-6 {
+    left: -10px;
+  }
+
+  .right-arrow-aboutus-1, .right-arrow-aboutus-2,.right-arrow-aboutus-3,.right-arrow-aboutus-4,.right-arrow-aboutus-5,.right-arrow-aboutus-6{
+    right: -10px;
+  }
+
+  .aboutus-heading, .gallery-heading, .videos-heading, .news-heading {
+    font-size: 1rem;
+  }
+
+  .aboutus-para, .season-history-details {
+    font-size: 0.7rem;
+  }
+
+  .titans-history-aboutus, .twitter-heading {
+    font-size: 1rem;
+  }
+
+  .footer-title {
+    font-size: 1rem;
+  }
+
+  .footer-location, .socialicons-text {
+    font-size: 0.7rem;
+  }
+
+  .video1, .red-rectangle {
+    height: 250px;
+  }
+
+  .news1, .yellow-rectangle {
+    height: 250px;
+  }
+
+  .red-rectangle, .yellow-rectangle {
+    right: 0;
+    top: 8px;
+  }
+}
+
+@media (max-width:472px) {
+  .history-1, .history-2, .history-3, .history-4, .history-5, .history-6, .history-7 {
+    height: 180px;
+  }
+
+  .header-for-seasons {
+    height: 75px;
+  }
+
+  .video1, .red-rectangle {
+    height: 180px;
+  }
+
+  .news1, .yellow-rectangle {
+    height: 180px;
+  }
+
+  /* .titans-aboutus{
+    height: 2100px;
+  } */
+}
+
+@media (max-width:372px) {
+
+  /* .titans-aboutus{
+    height: 2200px;
+  } */
+  .history-1 {
+    height: 200px;
+  }
+
+  .video1, .red-rectangle {
+    height: 125px;
+  }
+
+  .news1, .yellow-rectangle {
+    height: 125px;
+  }
+
+  .video-date {
+    position: static;
+  }
+
+  .news-date {
+    position: static;
+  }
+
+  .twitter-tweet {
+    max-width: 200px !important;
+  }
+}
